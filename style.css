@@ -62,11 +62,12 @@ body {
     background-image: url('images/volvo.jpg');
     background-size: cover;
     height: 75vh;
+    padding-left: 20px;
     display: flex;
 }
 
 .banner_text {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +117,7 @@ body {
 }
 
 .info1_text p {
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Open Sans", sans-serif;
     margin: 20px 0 30px 20px;
 }
@@ -124,7 +125,7 @@ body {
 @media (max-width: 1200px) {
     .info1_con {
         max-width: 990px;
-        
+
     }
 
     .info1_con img {
@@ -136,13 +137,16 @@ body {
     .banner_text {
         width: 100%;
     }
+
     .info1_con {
-        width: 100vw; 
+        width: 100vw;
     }
+
     .info1_con img {
         width: 80%;
     }
 }
+
 @media (max-width: 1000px) {
     .info1 {
         height: fit-content;
@@ -173,7 +177,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 70vh;
     background-color: #F2F2F2;
     padding-bottom: 20px;
 }
@@ -210,7 +214,7 @@ body {
 }
 
 .p2 {
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Open Sans", sans-serif;
     color: #111111;
 }
@@ -338,7 +342,7 @@ body {
         height: fit-content;
         flex-flow: wrap;
     }
-    
+
     .info3_card {
         width: 50%;
         margin: auto;
@@ -352,32 +356,39 @@ body {
         margin: auto;
         height: 55vh;
     }
+
     #info3_box h1 {
         font-size: 48px;
     }
+
     #info3_box p {
         font-size: 18px;
     }
 }
+
 @media (max-width: 1150px) {
     #info3_box h1 {
         font-size: 40px;
     }
+
     #info3_box p {
         font-size: 16px;
     }
 }
+
 .info4 {
     height: 90vh;
     display: flex;
     align-items: center;
 }
+
 .info4_con {
     max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
+
 .info4_card_one {
     display: flex;
     flex-direction: column;
@@ -387,10 +398,12 @@ body {
     color: #111111;
     text-align: start;
 }
+
 .info4_card_one_box p {
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
 }
+
 .info4_card_one_box button {
     padding: 10px 20px;
     border-radius: 50px;
@@ -401,9 +414,11 @@ body {
     margin-top: 20px;
     border: 2px solid;
 }
+
 .info4_card_one_box button:hover {
     background-color: #cecece;
 }
+
 .info4_card_two {
     display: flex;
     flex-direction: column;
@@ -412,13 +427,16 @@ body {
     box-sizing: border-box;
     color: #111111;
 }
+
 .info4_card_two_box {
     text-align: end;
 }
+
 .info4_card_two_box p {
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
 }
+
 .info4_card_two_box button {
     padding: 10px 20px;
     border-radius: 50px;
@@ -429,6 +447,7 @@ body {
     margin-top: 20px;
     border: 2px solid;
 }
+
 .info4_card_two_box button:hover {
     background-color: #cecece;
 }
@@ -438,60 +457,72 @@ body {
         height: fit-content;
         padding: 30px;
     }
+
     .info4_con {
         flex-wrap: wrap;
-        
+
     }
+
     .info4_card_one {
         width: 50%;
         height: 80vh;
         margin: auto;
     }
+
     .info4_con img {
         width: 50%;
         height: 80vh;
         object-fit: cover;
         margin: auto;
     }
+
     .info4_card_two {
         width: 50%;
         height: 80vh;
         margin: auto;
-        
+
     }
+
     .info4_card_two_box {
         text-align: center;
     }
 }
+
 @media (max-width: 768px) {
     .info4 {
         height: fit-content;
         padding: 30px;
     }
+
     .info4_con {
         flex-wrap: wrap;
-        
+
     }
+
     .info4_card_one {
         width: 100%;
         height: 80vh;
         margin: auto;
     }
+
     .info4_card_one_box {
         text-align: center;
     }
+
     .info4_con img {
         width: 100%;
         height: 80vh;
         object-fit: cover;
         margin: auto;
     }
+
     .info4_card_two {
         width: 100%;
         height: 80vh;
         margin: auto;
-        
+
     }
+
     .info4_card_two_box {
         text-align: center;
     }
@@ -499,13 +530,13 @@ body {
 
 .info5 {
     margin: auto;
-    height: 60vh;
+    padding: 65px 20px;
+    height: fit-content;
     display: flex;
     align-items: center;
     background-image: url('images/volvo-gallery-3.jpeg');
     background-position: center;
     background-size: cover;
-    backdrop-filter: opacity(5%);
 }
 
 .info5_con {
@@ -514,32 +545,66 @@ body {
     color: #fff;
 
 }
+
 .info5_con h1 {
     font-size: 48px;
     font-family: Lato, sans-serif;
     margin-bottom: 20px;
 }
+
 .info5_con #p1 {
     color: #fff;
     font-size: 20px;
     font-family: Roboto, sans-serif;
     margin-bottom: 20px;
 }
+
 .info5_con #p2 {
-    color: #fff;
+    
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
     line-height: 30px;
     width: 50%;
 }
+
 .info5_con button {
     padding: 10px 20px;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
     border-radius: 50px;
-    
     margin-top: 20px;
 }
+
 .info5_con button a {
-    color: #fff;
+    color: rgb(230, 230, 230);
+}
+
+@media (max-width: 1200px) {
+    .info5 {
+        padding: 40px;
+    }
+    .info5_con {
+        max-width: 990px;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .info5_con {
+        padding: 20px;
+        margin: auto;
+    }
+
+    .info5_con h1 {
+        font-size: 40px;
+    }
+
+    .info5_con #p1 {
+        font-size: 18px;
+    }
+
+    .info5_con #p2 {
+        font-size: 16px;
+        width: 70%;
+    }
 }
