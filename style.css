@@ -26,7 +26,8 @@
 .header_navbar ul li a {
     text-decoration: none;
     color: black;
-    font-family: sans-serif;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
     
 }
 .header_navbar ul li::before {
@@ -105,13 +106,14 @@
 @media (max-width: 1000px) {
     .info1_con {
         flex-wrap: wrap;
+        padding-top: 50px;
     }
     .info1_text h1, .info1_text p {
         text-align: center;
         margin: 0;
     }
     .info1_text {
-        margin: 10px 30px;
+        margin: 50px;
     }
 }
 .info1_text {
