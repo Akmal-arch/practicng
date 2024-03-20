@@ -178,7 +178,10 @@ body {
     border-radius: 50px;
     box-sizing: border-box;
     font-size: 18px;
-    
+    cursor: pointer;
+}
+.info2_text button:hover {
+    background-color: #cecece;
 }
 .info2_text button a {
     color: #111111;
