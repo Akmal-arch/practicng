@@ -19,13 +19,29 @@
 .header_navbar ul li {
     display: inline-block;
     margin: 0 20px;
+    transition: .3s ease;
+    position: relative;
 }
+
 .header_navbar ul li a {
     text-decoration: none;
     color: black;
     font-family: sans-serif;
+    
 }
-
+.header_navbar ul li::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #202020;
+    transition:.3s ease;
+}
+.header_navbar ul li:hover::before {
+    width: 100%;
+}
 .banner {
     background-image: url('volvo.jpg');
     background-size: cover;
@@ -98,8 +114,6 @@
         margin: 10px 30px;
     }
 }
-
-
 .info1_text {
     text-align: end;
 }
