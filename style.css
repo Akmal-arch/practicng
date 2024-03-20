@@ -4,6 +4,7 @@
 }
 a {
     text-decoration: none;
+    color: #111111;
 }
 body {
     min-height: 100vh;
@@ -137,6 +138,7 @@ body {
     justify-content: center;
     height: 60vh;
     background-color: #F2F2F2;
+    padding-bottom: 20px;
 }
 .info2_con {
     display: flex;
@@ -220,4 +222,42 @@ body {
         width: 80%;
         text-align: start;
     }
+}
+
+
+.info3 {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.info3_card {
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+#info3_box {
+    background-color: rgb(1, 143, 143);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    color: #fff;
+}
+#info3_box h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-family: Lato, sans-serif;
+}
+#info3_box p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+#info3_box button {
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid #fff;
 }
