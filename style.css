@@ -77,8 +77,12 @@ body {
 
 .banner_text h1 {
     font-size: 110px;
+    letter-spacing: 3px;
 }
-
+.banner_text p {
+    font-size: 20px;
+    font-family: Roboto, sans-serif
+}
 .info1 {
     display: flex;
     align-items: center;
