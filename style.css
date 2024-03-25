@@ -79,10 +79,12 @@ body {
     font-size: 110px;
     letter-spacing: 3px;
 }
+
 .banner_text p {
     font-size: 20px;
     font-family: Roboto, sans-serif
 }
+
 .info1 {
     display: flex;
     align-items: center;
@@ -96,6 +98,7 @@ body {
     justify-content: center;
     max-width: 1200px;
     height: 100%;
+    padding: 0 20px;
 }
 
 .info1_text {
@@ -121,6 +124,7 @@ body {
 @media (max-width: 1200px) {
     .info1_con {
         max-width: 990px;
+        
     }
 
     .info1_con img {
@@ -132,6 +136,13 @@ body {
     .banner_text {
         width: 100%;
     }
+    .info1_con {
+        width: 100vw; 
+    }
+    .info1_con img {
+        width: 80%;
+    }
+    
 }
 
 @media (max-width: 1000px) {
@@ -175,6 +186,7 @@ body {
     justify-content: center;
     max-width: 1200px;
     height: 100%;
+    padding: 0 20px;
 }
 
 .info2_text {
@@ -229,6 +241,7 @@ body {
 @media (max-width: 1200px) {
     .info2_con {
         max-width: 990px;
+        padding: 0;
     }
 
     .info2_con img {
@@ -313,9 +326,11 @@ body {
     background: transparent;
     border: 2px solid #fff;
 }
+
 #info3_box button a {
     color: #fff;
 }
+
 #info3_box button:hover {
     background-color: #cecece;
 }
@@ -325,12 +340,14 @@ body {
         height: fit-content;
         flex-flow: wrap;
     }
+
     .info3_card {
         width: 50%;
         margin: auto;
         height: 50vh;
     }
 }
+
 @media (max-width: 768px) {
     .info3_card {
         width: 100%;
