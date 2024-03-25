@@ -142,7 +142,9 @@ body {
     .info1_con img {
         width: 80%;
     }
-    
+    body {
+        font-size: small;
+    }
 }
 
 @media (max-width: 1000px) {
