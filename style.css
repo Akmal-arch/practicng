@@ -142,11 +142,7 @@ body {
     .info1_con img {
         width: 80%;
     }
-    html {
-        font-size: small;
-    }
 }
-
 @media (max-width: 1000px) {
     .info1 {
         height: fit-content;
