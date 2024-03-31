@@ -398,7 +398,10 @@ body {
     color: #111111;
     text-align: start;
 }
-
+.info4_card_one_box img {
+    width: 60px;
+    margin-bottom: 10px;
+}
 .info4_card_one_box p {
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
@@ -431,7 +434,10 @@ body {
 .info4_card_two_box {
     text-align: end;
 }
-
+.info4_card_two_box img {
+    width: 60px;
+    margin-bottom: 10px;
+}
 .info4_card_two_box p {
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
@@ -576,7 +582,7 @@ body {
 }
 
 .info5_con button a {
-    color: rgb(230, 230, 230);
+    color: #fff;
 }
 
 @media (max-width: 1200px) {
